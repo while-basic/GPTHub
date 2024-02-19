@@ -1,5 +1,9 @@
  Discover the Best in Custom GPT at OpenAI's GPT Store – Your Adventure Begins Here!
 
+## Installation
+
+'npm install && npm run dev'
+
 ![GPTHub Light Mode](assets/4.png)
 ![GPTHub Dark Mode](assets/5.png)
 
