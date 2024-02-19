@@ -44,13 +44,13 @@ export default function BaseLayout() {
           className="w-10 h-10 select-none" src="/gpthub.png"
           onClick={() => navigate('/')}
         />
-        {/* <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3">
           <label className="swap swap-rotate w-[22px] h-[22px] cursor-default rounded">
             <input type="checkbox" checked={isDark} onChange={handleTheme} />
             <SunIcon className="swap-off" size={22} />
             <MoonIcon className="swap-on" size={22} />
           </label>
-          <a
+          {/* <a
             href="https://github.com/while-basic/gpthub"
             target="_blank"
             rel="noopener noreferrer"
@@ -77,8 +77,8 @@ export default function BaseLayout() {
               src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=424710&theme=light" alt="GPTHub | Product Hunt"
               className="w-[140px]"
             />
-          </a>
-        </div> */}
+          </a> */}
+        </div>
       </header>
       <main className="px-6 pt-[100px] lg:max-w-screen-2xl m-auto">
         <Routes />
