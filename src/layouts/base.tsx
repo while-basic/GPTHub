@@ -44,14 +44,14 @@ export default function BaseLayout() {
           className="w-10 h-10 select-none" src="/gpthub.png"
           onClick={() => navigate('/')}
         />
-        <div className="flex items-center gap-3">
+        {/* <div className="flex items-center gap-3">
           <label className="swap swap-rotate w-[22px] h-[22px] cursor-default rounded">
             <input type="checkbox" checked={isDark} onChange={handleTheme} />
             <SunIcon className="swap-off" size={22} />
             <MoonIcon className="swap-on" size={22} />
           </label>
           <a
-            href="https://github.com/lencx/gpthub"
+            href="https://github.com/while-basic/gpthub"
             target="_blank"
             rel="noopener noreferrer"
             className="flex w-[28px] h-[28px]"
@@ -78,7 +78,7 @@ export default function BaseLayout() {
               className="w-[140px]"
             />
           </a>
-        </div>
+        </div> */}
       </header>
       <main className="px-6 pt-[100px] lg:max-w-screen-2xl m-auto">
         <Routes />
